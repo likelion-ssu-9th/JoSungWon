@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/e7a3ea1342.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    <title>Nav bar</title>
+</head>
+<body>
+    <nav class="navbar">
+
+        <div class="navbar_logo">
+            <i class="fab fa-accusoft"></i>
+            <a href="">DreamCoding</a>
+        </div>
+
+        <ul class="navbar_menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Wedding</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Bookings</a></li>
+        </ul>
+
+        <form class="search">
+            <input class='keyword' type='text' name='search' maxlength=255 value="" autocomplete="off">
+        
+            <select name="WhichSearch" class="SelectSearch">
+                <option id='google' value='google'>Google</option>
+                <option id='naver' value='naver'>Naver</option>
+            </select>
+
+            <button class="search-button" type="submit" name="click" value="">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+
+        <ul class="navbar_icons">
+        
+            <div class="navbar_searchIcons">
+                <li><a href=""><i class="fas fa-search"></i></a></li>
+            </div>
+            <div class="navbar_snsIcons">
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+            </div>
+            <div class="navbar_moreIcons">
+                <li><a href=""><i class="fas fa-ellipsis-v"></i></a></li>
+            </div>
+        </ul>
+
+        <a href="#" class="navbar_toogleBtn"><i class="fas fa-bars"></i></a>
+    </nav>
+</body>
+</html>
